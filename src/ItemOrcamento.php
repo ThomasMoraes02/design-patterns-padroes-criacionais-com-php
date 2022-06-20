@@ -4,7 +4,7 @@ namespace Alura\DesignPattern;
 
 class ItemOrcamento implements Orcavel
 {
-    public float $valor;
+    public $valor;
 
     public function valor(): float
     {

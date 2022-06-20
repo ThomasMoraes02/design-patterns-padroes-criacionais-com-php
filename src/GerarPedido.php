@@ -4,9 +4,9 @@ namespace Alura\DesignPattern;
 
 class GerarPedido
 {
-    private float $valorOrcamento;
-    private int $numeroItens;
-    private string $nomeCliente;
+    private $valorOrcamento;
+    private $numeroItens;
+    private $nomeCliente;
 
     public function __construct(
         float $valorOrcamento,

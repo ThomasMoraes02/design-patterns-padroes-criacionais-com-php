@@ -4,7 +4,7 @@ namespace Alura\DesignPattern\Relatorio;
 
 class ArquivoXmlExportado implements ArquivoExportado
 {
-    private string $nomeElementoPai;
+    private $nomeElementoPai;
 
     public function __construct(string $nomeElementoPai)
     {

@@ -6,7 +6,7 @@ use Alura\DesignPattern\Orcamento;
 
 abstract class Desconto
 {
-    protected ?Desconto $proximoDesconto;
+    protected $proximoDesconto;
 
     public function __construct(?Desconto $proximoDesconto)
     {

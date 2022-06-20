@@ -10,7 +10,7 @@ use Alura\DesignPattern\AcoesAoGerarPedido\LogGerarPedido;
 class GerarPedidoHandler
 {
     /** @var AcaoAposGerarPedido[] */
-    private array $acoesAposGerarPedido = [];
+    private $acoesAposGerarPedido = [];
 
     public function __construct(/* PedidoRepository, MailService */)
     {

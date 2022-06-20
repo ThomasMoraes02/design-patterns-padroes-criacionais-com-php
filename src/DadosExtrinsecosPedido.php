@@ -4,8 +4,8 @@ namespace Alura\DesignPattern;
 
 class DadosExtrinsecosPedido
 {
-    private string $nomeCliente;
-    private \DateTimeInterface $dataFinalizacao;
+    private $nomeCliente;
+    private $dataFinalizacao;
 
     public function __construct(string  $nomeCliente, \DateTimeInterface $dataFinalizacao)
     {

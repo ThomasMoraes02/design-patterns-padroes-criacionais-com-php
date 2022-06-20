@@ -7,7 +7,7 @@ use Alura\DesignPattern\Http\HttpAdapter;
 
 class RegistroOrcamento
 {
-    private HttpAdapter $http;
+    private $http;
 
     public function __construct(HttpAdapter $http)
     {

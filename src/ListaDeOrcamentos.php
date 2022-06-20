@@ -5,7 +5,7 @@ namespace Alura\DesignPattern;
 class ListaDeOrcamentos implements \IteratorAggregate
 {
     /** @var Orcamento[] */
-    private array $orcamentos;
+    private $orcamentos;
 
     public function __construct()
     {

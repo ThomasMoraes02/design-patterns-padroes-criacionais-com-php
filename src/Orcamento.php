@@ -7,8 +7,8 @@ use Alura\DesignPattern\EstadosOrcamento\EstadoOrcamento;
 
 class Orcamento implements Orcavel
 {
-    private array $itens;
-    public EstadoOrcamento $estadoAtual;
+    private $itens;
+    public $estadoAtual;
 
     public function __construct()
     {

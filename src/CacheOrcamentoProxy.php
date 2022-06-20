@@ -4,8 +4,8 @@ namespace Alura\DesignPattern;
 
 class CacheOrcamentoProxy extends Orcamento
 {
-    private float $valorCache = 0;
-    private Orcamento $orcamento;
+    private $valorCache = 0;
+    private $orcamento;
 
     public function __construct(Orcamento $orcamento)
     {

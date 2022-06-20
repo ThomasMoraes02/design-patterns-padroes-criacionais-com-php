@@ -6,7 +6,7 @@ use Alura\DesignPattern\Orcamento;
 
 abstract class Imposto
 {
-    private ?Imposto $outroImposto;
+    private $outroImposto;
 
     public function __construct(Imposto $outroImposto = null)
     {

@@ -4,7 +4,7 @@ namespace Alura\DesignPattern\Relatorio;
 
 class ArquivoZipExportado implements ArquivoExportado
 {
-    private string $nomeArquivoInterno;
+    private $nomeArquivoInterno;
 
     public function __construct(string $nomeArquivoInterno)
     {
